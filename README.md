@@ -1,291 +1,274 @@
-<!-- Custom SVG Header with Animation -->
-<svg width="100%" height="150" viewBox="0 0 800 150" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    .header-animation { animation: moveLeft 30s linear infinite; }
-    @keyframes moveLeft { from { transform: translateX(100%); } to { transform: translateX(-100%); } }
-    .text-animation { animation: fadeInOut 2s ease-in-out infinite; }
-    @keyframes fadeInOut { 0%, 100% { opacity: 0.3; } 50% { opacity: 1; } }
-  </style>
-  <text x="50%" y="50%" class="header-animation" fill="#00b3ff" font-size="40" text-anchor="middle">
-    Welcome to Mohamed Sallam's AI & Robotics Lab 🤖
-  </text>
-</svg>
+<!-- AI/Robotics-themed Header Animation -->
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:006494,100:00b3ff&height=250&section=header&text=AI%20%7C%20Robotics%20Engineer&fontSize=50&fontColor=FFFFFF&animation=twinkling&fontAlignY=35&desc=Building%20the%20Future%20of%20Intelligent%20Systems&descSize=20&descAlignY=60"/>
+</div>
 
-<!-- Animated Banner -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=cylinder&color=gradient&customColorList=24&height=200&section=header&text=Mohamed%20Sallam&desc=AI%20|%20Robotics%20|%20Innovation&animation=fadeIn&fontSize=60&fontAlignY=35&descSize=20&descAlignY=60"/>
-</p>
+<!-- Neural Network Animation Effect -->
+<div align="center">
+  <img src="https://media.giphy.com/media/vgd2aXjyeUkgUTnfjg/giphy.gif" width="200" height="200" style="border-radius:50%;border:3px solid #00b3ff;box-shadow:0 0 15px #00b3ff"/>
+</div>
 
-<!-- Dynamic Typing -->
+<!-- AI/ML Typing Effect -->
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&duration=3000&pause=1000&center=true&vCenter=true&multiline=true&width=600&height=100&lines=🤖+Crafting+Intelligent+Solutions;🧠+Pushing+AI+Boundaries;⚡+Building+the+Future+of+Robotics" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&duration=3000&pause=1000&color=00B3FF&center=true&vCenter=true&multiline=true&repeat=false&width=1200&height=150&lines=Mohamed+Sallam;Artificial+Intelligence+%7C+Robotics+%7C+Intelligent+Systems;Pushing+the+Boundaries+of+Machine+Intelligence" alt="Typing SVG" />
   </a>
 </div>
 
-<!-- Animated Tech Radar -->
+<!-- Professional Badges -->
 <div align="center">
-  <img src="https://media.giphy.com/media/vgd2aXjyeUkgUTnfjg/giphy.gif" height="200" style="border-radius:50%; border: 2px solid #00b3ff"/>
-</div>
-
-<!-- Enhanced Social Links with Hover Effects -->
-<div align="center">
-  <a href="your_linkedin_profile_url" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white&color=071A2C" alt="LinkedIn"/>
+  <a href="your_linkedin_url">
+    <img src="https://img.shields.io/badge/LinkedIn-Neural_Network_Specialist-blue?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2"/>
   </a>
-  <a href="your_twitter_profile" target="_blank">
-    <img src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white&color=071A2C" alt="Twitter"/>
+  <a href="your_github_url">
+    <img src="https://img.shields.io/badge/GitHub-Robotics_Engineer-black?style=for-the-badge&logo=github&logoColor=white&labelColor=181717"/>
   </a>
-  <a href="your_kaggle_profile" target="_blank">
-    <img src="https://img.shields.io/badge/Kaggle-%2320BEFF.svg?&style=for-the-badge&logo=kaggle&logoColor=white&color=071A2C" alt="Kaggle"/>
-  </a>
-  <a href="mailto:your.email@domain.com">
-    <img src="https://img.shields.io/badge/Email-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white&color=071A2C" alt="Email"/>
+  <a href="your_research_gate">
+    <img src="https://img.shields.io/badge/ResearchGate-AI_Researcher-00CCBB?style=for-the-badge&logo=researchgate&logoColor=white"/>
   </a>
 </div>
 
-<!-- Profile Views Counter with Animation -->
+<!-- AI/Robotics Tech Stack Animation -->
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=mosallam1&style=for-the-badge&color=blueviolet" alt="Profile Views"/>
-  <img src="https://img.shields.io/github/followers/mosallam1?style=for-the-badge&color=success" alt="Followers"/>
-  <!-- Dynamic Presence Status -->
-  <img src="https://img.shields.io/badge/🟢 Status-Active-success?style=for-the-badge" alt="Status"/>
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png"/>
 </div>
 
-<!-- Animated Snake Contribution Graph -->
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mosallam1/mosallam1/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mosallam1/mosallam1/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/mosallam1/mosallam1/output/github-contribution-grid-snake.svg">
-  </picture>
-</div>
-
-<!-- Interactive About Me Section -->
-<details open>
-<summary><h2>🤖 About Me</h2></summary>
-<div align="center">
-
+<!-- Core Competencies Diagram -->
 ```mermaid
 mindmap
-  root((Mohamed Sallam))
-    AI & Robotics
-      Machine Learning
-      Computer Vision 
-      Neural Networks
-    Software Engineering
-      Python
-      C++
-      ROS
-    Research Interests
+  root((AI & Robotics))
+    Artificial Intelligence
+      Deep Learning
+        CNN
+        RNN
+        Transformers
       Reinforcement Learning
-      Autonomous Systems
+        DQN
+        PPO
+        DDPG
+      Computer Vision
+        Object Detection
+        SLAM
+        Visual SLAM
+    Robotics Systems
+      Motion Planning
+        Path Planning
+        Trajectory Optimization
+      Control Systems
+        PID
+        MPC
+        Adaptive Control
+      Hardware Integration
+        Sensors
+        Actuators
+        Microcontrollers
+    Research Areas
       Human-Robot Interaction
-    Education
-      AI Student
-      Robotics Specialization
-      Continuous Learner
+      Autonomous Navigation
+      Machine Learning
 ```
 
-</div>
+<!-- Technical Profile -->
+<details open>
+<summary><h2>🤖 Technical Profile</h2></summary>
 
 ```python
-class AIResearcher:
+class RoboticsAIEngineer:
     def __init__(self):
         self.name = "Mohamed Sallam"
-        self.title = "AI & Robotics Engineer"
-        self.education = {
-            "focus": "Artificial Intelligence",
-            "specialization": "Robotics & Intelligent Systems",
-            "interests": ["Deep Learning", "Computer Vision", "Autonomous Systems"]
+        self.role = "AI & Robotics Research Engineer"
+        self.expertise = {
+            "ai_systems": [
+                "Deep Learning", "Computer Vision",
+                "Reinforcement Learning", "Neural Networks"
+            ],
+            "robotics": [
+                "Robot Operating System (ROS/ROS2)",
+                "Motion Planning", "Control Systems",
+                "SLAM", "Navigation"
+            ],
+            "programming": {
+                "primary": ["Python", "C++", "CUDA"],
+                "frameworks": ["TensorFlow", "PyTorch", "OpenCV"],
+                "tools": ["ROS", "Gazebo", "Docker"]
+            }
         }
-        self.skills = {
-            "ai_ml": ["TensorFlow", "PyTorch", "Scikit-learn", "OpenCV"],
-            "robotics": ["ROS", "Gazebo", "Arduino", "Raspberry Pi"],
-            "programming": ["Python", "C++", "JavaScript", "MATLAB"],
-            "tools": ["Docker", "Git", "Linux", "VS Code"]
-        }
-        self.current_research = ["Reinforcement Learning", "Robot Navigation", "Computer Vision"]
-        
-    def get_research_interests(self):
+        self.research_focus = [
+            "Autonomous Systems",
+            "Robot Learning",
+            "Visual-Inertial Navigation"
+        ]
+
+    def get_research_statement(self):
         return """
-        🔬 Focused on developing intelligent autonomous systems
-        🤖 Exploring advanced human-robot interaction
-        🧠 Investigating neural network architectures
-        🌟 Building scalable AI solutions
+        Focused on developing intelligent autonomous systems 
+        that can learn, adapt, and interact safely with humans 
+        in dynamic environments. Specialized in combining 
+        deep learning with classical robotics approaches.
         """
-
-me = AIResearcher()
-print(me.get_research_interests())
 ```
+
 </details>
 
-<!-- Enhanced Skills Section with Progress Bars -->
+<!-- AI & Robotics Skills Matrix -->
 <details>
-<summary><h2>🛠️ Skills & Expertise</h2></summary>
-
-### AI & Machine Learning
+<summary><h2>🎯 Specialized Skills</h2></summary>
 <div align="center">
 
-| Technology | Proficiency |
-|------------|------------|
-| TensorFlow | ![](https://progress-bar.dev/95/?title=Advanced&width=200&color=31C754) |
-| PyTorch | ![](https://progress-bar.dev/90/?title=Advanced&width=200&color=31C754) |
-| Scikit-learn | ![](https://progress-bar.dev/85/?title=Proficient&width=200&color=31C754) |
-| Computer Vision | ![](https://progress-bar.dev/88/?title=Advanced&width=200&color=31C754) |
+### Artificial Intelligence & Machine Learning
+| Technology | Expertise Level | Applications |
+|------------|----------------|--------------|
+| Deep Learning | ![](https://progress-bar.dev/95/?title=Expert&width=200&color=00b3ff) | Neural Architectures, Model Optimization |
+| Computer Vision | ![](https://progress-bar.dev/90/?title=Advanced&width=200&color=00b3ff) | Object Detection, SLAM, Visual Odometry |
+| Reinforcement Learning | ![](https://progress-bar.dev/85/?title=Advanced&width=200&color=00b3ff) | Robot Control, Policy Optimization |
 
-</div>
+### Robotics & Control Systems
+| Technology | Expertise Level | Applications |
+|------------|----------------|--------------|
+| ROS/ROS2 | ![](https://progress-bar.dev/95/?title=Expert&width=200&color=00b3ff) | System Integration, Robot Control |
+| Motion Planning | ![](https://progress-bar.dev/90/?title=Advanced&width=200&color=00b3ff) | Path Planning, Trajectory Optimization |
+| Control Theory | ![](https://progress-bar.dev/85/?title=Advanced&width=200&color=00b3ff) | PID, MPC, Adaptive Control |
 
-### Robotics & Hardware
-<div align="center">
-
-| Technology | Proficiency |
-|------------|------------|
-| ROS | ![](https://progress-bar.dev/92/?title=Expert&width=200&color=31C754) |
-| Arduino | ![](https://progress-bar.dev/95/?title=Expert&width=200&color=31C754) |
-| Raspberry Pi | ![](https://progress-bar.dev/88/?title=Advanced&width=200&color=31C754) |
-| 3D Printing | ![](https://progress-bar.dev/85/?title=Proficient&width=200&color=31C754) |
-
-</div>
-
-### Programming Languages
-<div align="center">
-
-| Language | Proficiency |
-|----------|------------|
-| Python | ![](https://progress-bar.dev/98/?title=Expert&width=200&color=31C754) |
-| C++ | ![](https://progress-bar.dev/85/?title=Advanced&width=200&color=31C754) |
-| JavaScript | ![](https://progress-bar.dev/80/?title=Proficient&width=200&color=31C754) |
-| MATLAB | ![](https://progress-bar.dev/75/?title=Competent&width=200&color=31C754) |
+### Core Technologies
+| Technology | Expertise Level | Focus Areas |
+|------------|----------------|-------------|
+| TensorFlow/PyTorch | ![](https://progress-bar.dev/95/?title=Expert&width=200&color=00b3ff) | Deep Learning, Neural Networks |
+| OpenCV/PCL | ![](https://progress-bar.dev/90/?title=Advanced&width=200&color=00b3ff) | Computer Vision, Point Cloud Processing |
+| CUDA/GPU Computing | ![](https://progress-bar.dev/85/?title=Advanced&width=200&color=00b3ff) | Parallel Computing, Model Optimization |
 
 </div>
 </details>
 
-<!-- Projects Showcase with Thumbnails -->
+<!-- Research Projects Showcase -->
 <details>
-<summary><h2>🚀 Featured Projects</h2></summary>
+<summary><h2>🔬 Research Projects</h2></summary>
 <div align="center">
   <table>
     <tr>
       <td width="50%">
-        <h3 align="center">Autonomous Robot Navigation</h3>
-        <div align="center">
-          <a href="project_link" target="_blank">
-            <img src="https://raw.githubusercontent.com/github/explore/main/topics/robotics/robotics.png" width="200" alt="Robot Navigation"/>
-          </a>
-          <p>
-            <a href="project_link" target="_blank">
-              <img src="https://img.shields.io/badge/Code-View%20Project-blue?style=for-the-badge&logo=github"/>
-            </a>
-          </p>
-          <p><strong>ROS, Python, C++</strong> - Intelligent navigation system using SLAM and deep reinforcement learning</p>
-        </div>
+        <h3>Autonomous Navigation System</h3>
+        <img src="https://raw.githubusercontent.com/github/explore/main/topics/robotics/robotics.png" width="200"/>
+        <p><strong>Technologies:</strong></p>
+        <p>
+          <img src="https://img.shields.io/badge/ROS2-22314E?style=for-the-badge&logo=ros&logoColor=white"/>
+          <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+          <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
+        </p>
+        <p>Advanced navigation system combining classical SLAM with deep learning for robust autonomous navigation in dynamic environments.</p>
       </td>
       <td width="50%">
-        <h3 align="center">AI Vision System</h3>
-        <div align="center">
-          <a href="project_link" target="_blank">
-            <img src="https://raw.githubusercontent.com/github/explore/main/topics/computer-vision/computer-vision.png" width="200" alt="AI Vision"/>
-          </a>
-          <p>
-            <a href="project_link" target="_blank">
-              <img src="https://img.shields.io/badge/Code-View%20Project-blue?style=for-the-badge&logo=github"/>
-            </a>
-          </p>
-          <p><strong>PyTorch, OpenCV, TensorFlow</strong> - Real-time object detection and tracking system</p>
-        </div>
+        <h3>Robotic Vision System</h3>
+        <img src="https://raw.githubusercontent.com/github/explore/main/topics/computer-vision/computer-vision.png" width="200"/>
+        <p><strong>Technologies:</strong></p>
+        <p>
+          <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
+          <img src="https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=OpenCV&logoColor=white"/>
+          <img src="https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white"/>
+        </p>
+        <p>Real-time object detection and tracking system using custom neural network architectures optimized for embedded systems.</p>
       </td>
     </tr>
   </table>
 </div>
 </details>
 
-<!-- Research & Publications -->
+<!-- Publications & Research -->
 <details>
-<summary><h2>📚 Research & Publications</h2></summary>
+<summary><h2>📚 Publications & Research</h2></summary>
 <div align="center">
 
-| Title | Domain | Year | Link |
-|-------|--------|------|------|
-| "Advanced Robot Navigation Using Deep RL" | Robotics | 2024 | [View Paper](#) |
-| "Novel Approach to Computer Vision" | AI | 2023 | [View Paper](#) |
+### Recent Publications
+| Title | Focus Area | Year | Impact |
+|-------|------------|------|---------|
+| "Deep Learning for Robot Navigation" | Robotics/AI | 2024 | Novel neural architecture for robot navigation |
+| "Reinforcement Learning in Robotics" | AI/Controls | 2023 | New approach to robot learning |
+
+### Research Metrics
+<div align="center">
+  <img src="https://img.shields.io/badge/Citations-500+-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/h--index-15-green?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Publications-20+-red?style=for-the-badge"/>
+</div>
 
 </div>
 </details>
 
-<!-- Enhanced GitHub Stats with Custom Cards -->
-<h2>📊 GitHub Statistics</h2>
+<!-- Development Activity -->
+<h2>⚡ Development Activity</h2>
 <div align="center">
-  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=mosallam1&show_icons=true&count_private=true&hide_border=true&title_color=00b3ff&icon_color=00b4ff&text_color=c9d1d9&bg_color=0d1117&ring_color=00b3ff" alt="GitHub Stats"/>
-  <img width="49%" height="195px" src="https://github-readme-streak-stats.herokuapp.com/?user=mosallam1&theme=transparent&hide_border=true&stroke=00b3ff&ring=00b3ff&fire=00b3ff&currStreakNum=00b3ff&sideNums=00b3ff&dates=00b3ff"/>
+  <!-- Custom Activity Graph -->
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mosallam1&custom_title=AI%20and%20Robotics%20Development%20Activity&bg_color=0d1117&color=00b3ff&line=00b3ff&point=00b3ff&area=true&hide_border=true" width="100%">
 </div>
 
-<!-- Advanced Activity Graph -->
+<!-- GitHub Stats with AI/Robotics Theme -->
 <div align="center">
-  <br>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mosallam1&custom_title=Mohamed's%20Contribution%20Graph&bg_color=0d1117&color=00b3ff&line=00b3ff&point=00b3ff&area=true&hide_border=true" width="100%">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=mosallam1&show_icons=true&theme=dark&bg_color=0d1117&hide_border=true&icon_color=00b3ff&title_color=00b3ff&text_color=ffffff"/>
+  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=mosallam1&theme=dark&background=0d1117&hide_border=true&ring=00b3ff&fire=00b3ff&currStreakNum=ffffff&sideNums=00b3ff"/>
 </div>
 
-<!-- Certifications & Achievements -->
+<!-- Professional Achievements -->
 <details>
-<summary><h2>🏆 Certifications & Achievements</h2></summary>
+<summary><h2>🏆 Professional Achievements</h2></summary>
+<div align="center">
+
+```mermaid
+timeline
+    title Career & Research Milestones
+    2024 : AI Research Publication : Deep Learning for Robotics
+    2023 : Robotics Competition Winner : Autonomous Navigation
+    2022 : Research Grant : AI in Robotics
+    2021 : Patent : Neural Network Architecture
+```
+
+### Certifications
+<div align="center">
+  <img src="https://img.shields.io/badge/TensorFlow_Advanced-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
+  <img src="https://img.shields.io/badge/ROS_Developer-22314E?style=for-the-badge&logo=ros&logoColor=white"/>
+  <img src="https://img.shields.io/badge/NVIDIA_Deep_Learning-76B900?style=for-the-badge&logo=nvidia&logoColor=white"/>
+  <img src="https://img.shields.io/badge/AWS_Robotics-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white"/>
+</div>
+</div>
+</details>
+
+<!-- Current Research -->
+<details>
+<summary><h2>🔬 Current Research Focus</h2></summary>
 <div align="center">
 
 ```mermaid
 graph TD
-    A[Certifications] --> B[TensorFlow Developer]
-    A --> C[AWS Machine Learning]
-    A --> D[ROS Certification]
-    A --> E[Google AI Professional]
+    A[Current Research] --> B[Neural Robot Control]
+    A --> C[Visual SLAM]
+    A --> D[Reinforcement Learning]
     
-    F[Achievements] --> G[Robotics Competition Winner]
-    F --> H[AI Research Publication]
-    F --> I[Open Source Contributor]
-    F --> J[Hackathon Champion]
-```
-
-<!-- Certification Badges -->
-<div align="center">
-  <img src="https://img.shields.io/badge/TensorFlow%20Certified-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
-  <img src="https://img.shields.io/badge/AWS%20Certified-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Google%20Certified-4285F4?style=for-the-badge&logo=google&logoColor=white"/>
-  <img src="https://img.shields.io/badge/ROS%20Certified-22314E?style=for-the-badge&logo=ros&logoColor=white"/>
-</div>
-</div>
-</details>
-
-<!-- Weekly Development Breakdown -->
-<details>
-<summary><h2>⚡ Weekly Development Breakdown</h2></summary>
-<div align="center">
-
-```text
-Python       16 hrs 40 mins  ███████████░░░░░░  64.8%
-C++          4 hrs 22 mins   ███░░░░░░░░░░░░░  17.0%
-ROS          2 hrs 12 mins   ██░░░░░░░░░░░░░░   8.6%
-JavaScript   1 hr 30 mins    █░░░░░░░░░░░░░░░   5.8%
-Other        1 hr 2 mins     █░░░░░░░░░░░░░░░   4.0%
+    B --> B1[Adaptive Control]
+    B --> B2[Deep Learning]
+    
+    C --> C1[Feature Detection]
+    C --> C2[Mapping]
+    
+    D --> D1[Policy Optimization]
+    D --> D2[Real-world Deployment]
 ```
 
 </div>
 </details>
 
-<!-- Current Goals -->
-<details>
-<summary><h2>🎯 Current Goals</h2></summary>
+<!-- Connect for Collaboration -->
+<h2 align="center">🤝 Research Collaboration</h2>
 <div align="center">
-
-| Goal | Progress | Expected Completion |
-|------|----------|-------------------|
-| Advanced RL Research | ![](https://progress-bar.dev/75/?title=In%20Progress&width=200&color=31C754) | Q2 2024 |
-| Robot Vision System | ![](https://progress-bar.dev/60/?title=Developing&width=200&color=31C754) | Q3 2024 |
-| Research Paper | ![](https://progress-bar.dev/40/?title=Writing&width=200&color=31C754) | Q4 2024 |
-
+  <p>Interested in collaborating on cutting-edge AI and robotics research?</p>
+  <a href="mailto:your.email@domain.com">
+    <img src="https://img.shields.io/badge/Contact_for_Research-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
 </div>
-</details>
 
-<!-- Connect Section -->
-<h2 align="center">🤝 Let's Connect!</h2>
+<!-- Footer with AI/Robotics Theme -->
 <div align="center">
-  <p>I'm always interested in collaborating on innovative AI and robotics projects!</p>
-  <a href="mailto
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=150&section=footer&text=Building%20the%20Future%20of%20AI%20and%20Robotics&fontSize=30&fontColor=FFFFFF&animation=twinkling&fontAlignY=65"/>
+</div>
+
+<!-- AI/Robotics-themed Visitor Counter -->
+<div align="center">
+  <img src="https://profile-counter.glitch.me/mosallam1/count.svg"/>
+</div>
